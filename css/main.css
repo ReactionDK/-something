@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	background-color: #f2f2f2;
+	font-family: "Lato";
+	font-weight: 300;
+	font-size: 16px;
+	color: #555;
+
+	-webkit-font-smoothing: antiliased;
+	-webkit-overflow-scrolling : touch;
+
+	margin-top: 70px; 
+	
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Raleway";
+	font-weight: 300;
+	color: #333; 
+}
+
+p{
+	line-height: 28px;
+	margin-bottom: 25px;
+}
+
+.centered {
+	text-align: center; 
+}
+
+a {
+	color: #f85c37;
+}
+
+a:hover, a:focus {
+	color: #7b7b7b;
+	text-decoration: none;
+	outline: 0;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border:0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+.navbar {
+	font-weight: 800;
+	font-size: 14px;
+	padding-top:15px;
+	padding-bottom: 15px;
+}
+
+.navbar-inverse {
+	background: #2d2d2d;
+	border-color: #2d2d2d;
+}
+
+.navbar-inverse .navbar-nav > .active > a{
+	background-color: #3a46d4;
+}
+
+/* Шрифт для места где нужно лого, если лого не будет картинкой */
+.navbar-inverse .navbar-brand {
+	color: #999;
+	font-weight:bolder;
+	font-size: 22px;
+	letter-spacing: 1px;
+}
+
+#headerwrap {
+	background: url(../images/office1.jpg)	;
+	margin-top: -20px;
+	text-align: center;
+	background-attachment: fixed;
+	background-position: center center;
+	min-height: 600px;
+	
+	
+	background-size: 100%;
+
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	width: 100%;
+}
+
+#headerwrap h1 {
+	margin-top: 100px;
+	color: white;
+	font-size: 70px;
+	font-weight: 300;
+	letter-spacing: 3px;
+}
+
+#headerwrap h2 {
+	color: white;
+	font-size: 40px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.padding-t-35 {
+	padding-top: 35px;
+}
+
+.padding-t-35 h2 {
+	font-size: 50px;
+}
+
+h2 span {
+	background: rgba(255, 255, 255, 0.3);
+	border-radius: 10px;
+	padding: 3px;
+}
+
+.tilt {
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.tilt:hover {
+	-webkit-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);
+	-o-transform: rotate(-10deg);
+	-ms-transform: rotate(-10deg);
+	transform: rotate(-10deg);
+}
+
+.padding-t-35 h4 {
+	font-size: 35px;
+}
+
+
+.width-6 {
+	width: 60%;
+}
+
+
+#contacts {
+	background: url(../images/contacts.jpg) no-repeat;
+	background-position: center center;
+	min-height: 600px;
+	
+	background-size: 100%;
+
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	width: 100%;
+}
+
+
+#footer {
+	background: #2d2d2d;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+#footer i {
+	color: #bdbdbd;
+	font-size: 30px;
+	padding: 20px;
+}
+
+#footer i:hover{
+	color: #3a46d4;
+}
+
+.margin-b-20{
+	margin: 0 auto;
+	margin-bottom: 20px;	
+}
+
+.form-control{
+	font-size: 18px;
+	height: 45px;
+}
+
+#contacts h4{
+
+}
